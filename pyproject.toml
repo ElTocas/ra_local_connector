@@ -1,0 +1,25 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "ra-local-connector"
+version = "0.1.0"
+description = "Local MCP server that organises electronic-music event data (events, venues, artists, lineups) for Claude."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+dependencies = ["mcp>=1.2"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8"]
+
+[project.scripts]
+ra-local-connector = "ra_local_connector.server:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/ra_local_connector"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]

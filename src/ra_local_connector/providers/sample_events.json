@@ -1,0 +1,61 @@
+[
+  {
+    "id": "sample-001",
+    "title": "[SAMPLE] Concrete Hours",
+    "starts_at": "2026-11-06T23:00",
+    "ends_at": "2026-11-07T06:00",
+    "venue": {"id": "sample-v1", "name": "Sample Warehouse", "city": "Rome", "country": "Italy", "address": "Via Esempio 1"},
+    "genres": ["techno", "industrial"],
+    "lineup": [
+      {"artist": {"id": "sample-a1", "name": "Example One"}, "set_start": "23:00"},
+      {"artist": {"id": "sample-a2", "name": "Example Two"}, "set_start": "01:00"},
+      {"artist": {"id": "sample-a3", "name": "Example Three"}, "set_start": "03:30"}
+    ],
+    "url": "https://example.invalid/events/sample-001",
+    "price": "EUR 15"
+  },
+  {
+    "id": "sample-002",
+    "title": "[SAMPLE] Sunday Deep Session",
+    "starts_at": "2026-11-08T17:00",
+    "ends_at": "2026-11-09T00:00",
+    "venue": {"id": "sample-v2", "name": "Sample Garden Club", "city": "Rome", "country": "Italy", "address": "Viale Prova 22"},
+    "genres": ["house", "deep house"],
+    "lineup": [
+      {"artist": {"id": "sample-a4", "name": "Example Four"}, "set_start": "17:00"},
+      {"artist": {"id": "sample-a2", "name": "Example Two"}, "set_start": "20:00"}
+    ],
+    "url": "https://example.invalid/events/sample-002",
+    "price": "EUR 10"
+  },
+  {
+    "id": "sample-003",
+    "title": "[SAMPLE] Beispiel Nacht",
+    "starts_at": "2026-11-07T22:00",
+    "ends_at": "2026-11-08T10:00",
+    "venue": {"id": "sample-v3", "name": "Sample Halle", "city": "Berlin", "country": "Germany", "address": "Teststrasse 5"},
+    "genres": ["techno", "minimal"],
+    "lineup": [
+      {"artist": {"id": "sample-a5", "name": "Example Five"}},
+      {"artist": {"id": "sample-a1", "name": "Example One"}},
+      {"artist": {"id": "sample-a6", "name": "Example Six"}},
+      {"artist": {"id": "sample-a7", "name": "Example Seven"}}
+    ],
+    "url": "https://example.invalid/events/sample-003",
+    "price": "EUR 20"
+  },
+  {
+    "id": "sample-004",
+    "title": "[SAMPLE] Late Bass Friday",
+    "starts_at": "2026-11-13T23:30",
+    "ends_at": "2026-11-14T05:00",
+    "venue": {"id": "sample-v1", "name": "Sample Warehouse", "city": "Rome", "country": "Italy", "address": "Via Esempio 1"},
+    "genres": ["drum and bass", "jungle"],
+    "lineup": [
+      {"artist": {"id": "sample-a8", "name": "Example Eight"}, "set_start": "23:30"},
+      {"artist": {"id": "sample-a9", "name": "Example Nine"}, "set_start": "02:00"}
+    ],
+    "url": "https://example.invalid/events/sample-004",
+    "price": "EUR 12"
+  }
+]
